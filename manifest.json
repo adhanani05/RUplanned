@@ -1,0 +1,26 @@
+{
+  "name": "RUplanner",
+  "version": "1.0.0",
+  "description": "AI Copilot for Rutgers Course Registration",
+  "manifest_version": 3,
+  "author": "Aditya Dhanani",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "RUplanner"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sims.rutgers.edu/csp/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["index.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
