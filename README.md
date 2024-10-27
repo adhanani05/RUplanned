@@ -5,7 +5,7 @@ To view extension:
 3. Turn on developer mode on top right
 4. Click load unpacked in top left and choose file
 5. Pin Extension
-6. Every change that is made you have to click thd refresh button for the extension
+6. Every change that is made you have to click the refresh button for the extension
 
 In Vscode:
 
