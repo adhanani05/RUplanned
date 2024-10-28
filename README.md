@@ -12,6 +12,6 @@ In Vscode:
 1. Click main branch button on bottom left
 2. Create a new branch
 3. Make branch name what you are working on with name
-4. Create pull reuqest when done
+4. Push to your branch and create pull request if done
 
 Python files not working as of right now
