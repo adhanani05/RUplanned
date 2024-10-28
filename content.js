@@ -30,14 +30,4 @@
 
     scheduleData.push(courseData); // add data to the array
   });
-
-  console.log(scheduleData); //output the scraped data
-  const prompt = "Write a JavaScript function to add two numbers.";
-  chrome.runtime.sendMessage(
-    { action: "fetchOpenAI", prompt: prompt },
-    (response) => {
-      console.log("OpenAI Response:", response.result);
-      alert(response.result);
-    }
-  );
 })();
