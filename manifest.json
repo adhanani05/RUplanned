@@ -4,7 +4,7 @@
   "description": "AI Copilot for Rutgers Course Registration",
   "manifest_version": 3,
   "author": "Aditya Dhanani",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "sidePanel"],
   "action": {
     "default_title": "RUplanner"
   },
@@ -16,6 +16,9 @@
   ],
   "background": {
     "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "index.html"
   },
   "web_accessible_resources": [
     {
